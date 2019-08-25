@@ -55,20 +55,48 @@
               </ul>
               <div class="cart-total">
                 <div class="alert alert-secondary" role="alert">
-                  Total price:
+                  Общая цена:
                   <span v-price="total"></span>
                 </div>
               </div>
             </div>
-            <div class="alert alert-info" role="alert" v-else>Cart is empty! Add some products</div>
+            <div class="alert alert-info" role="alert" v-else>Корзина пуста! Добавьте какие-то товары в корзину</div>
           </div>
-          <div class="modal-footer">
+          <div class="modal-footer" v-if="cart && cart.length">
+              <button class="btn btn-danger" @click="clearCart()">Очистить корзину</button>
             <button class="btn btn-secondary" data-dismiss="modal">Обратно в магазин</button>
             <button
               class="btn btn-primary"
               data-toggle="modal"
               data-target="#shoppingCartCheckout"
-            >Заказать товары</button>
+              data-dismiss="modal"
+            >Заказать</button>
+          </div>
+
+            <div class="modal-footer" v-else>
+            <button class="btn btn-secondary" data-dismiss="modal">Обратно в магазин</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="thanks-msg" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+
+            <button class="close" data-dismiss="modal">&times;</button>
+          </div>
+       <div class="modal-body">
+           <img class="thx" src="src/assets/images/likeaboss.png" />
+           <h3>Спасибо</h3>
+           <p>
+               Ваш заказ оформлен И ждет отправки
+           </p>
+           </div>
+          <div class="modal-footer border-0">
+            <button class="btn btn-secondary" data-dismiss="modal">Обратно в магазин</button>
+
           </div>
         </div>
       </div>
@@ -82,7 +110,7 @@
             <button class="close" data-dismiss="modal">&times;</button>
           </div>
           <div class="modal-body">
-            <form role="form">
+            <form role="form" v-on:submit.prevent="onSubmit">
               <div class="form-group">
                 <label for="username">Полное имя</label>
                 <div class="input-group">
@@ -97,7 +125,7 @@
                 <label for="cardNumber">Номер карты</label>
                 <div class="input-group">
 
-                  <input type="text" class="form-control" name="cardNumber" placeholder />
+                  <input type="text" class="form-control" name="cardNumber" placeholder required />
                 </div>
                 <!-- input-group.// -->
               </div>
@@ -109,8 +137,8 @@
                     <div class="form-group">
 	            <label><span class="hidden-xs">Дата</span> </label>
 	        	<div class="input-group">
-	        		<input type="number" class="form-control" placeholder="MM" name="">
-		            <input type="number" class="form-control" placeholder="YY" name="">
+	        		<input type="number" class="form-control" placeholder="MM" name="" required>
+		            <input type="number" class="form-control" placeholder="YY" name="" required>
 	        	</div>
 	        </div>
                   </div>
@@ -131,17 +159,20 @@
                 </div>
               </div>
               <!-- row.// -->
-              <button class="subscribe btn btn-primary btn-block" type="button">Подтвердить</button>
+              <button class="subscribe btn btn-primary btn-block" type="submit" @click="clearCart()"
+              data-toggle="modal"
+              data-target="#thanks-msg"
+              data-dismiss="modal">Подтвердить</button>
             </form>
           </div>
           <div class="modal-footer">
             <button class="btn btn-secondary" data-dismiss="modal">Обратно в магазин</button>
-            <button
+            <!-- <button
               class="btn btn-primary"
               data-toggle="modal"
               data-target="#shoppingCartCheckout"
               data-dismiss="modal"
-            >Заказать</button>
+            >Подтвердить</button> -->
           </div>
         </div>
       </div>
@@ -158,6 +189,7 @@ export default {
     ...mapGetters({
       cart: "cart"
     }),
+
     total() {
       let sum = 0;
       for (let c of this.cart) {
@@ -178,7 +210,10 @@ export default {
     }
   },
   methods: {
-    ...mapActions(["incr", "decr", "del", "restore"])
+    ...mapActions(["incr", "decr", "clearCart", "del", "restore"]),
+     onSubmit() {
+        console.log('thanks');
+    },
   },
   mounted() {
     let cart,
@@ -261,5 +296,9 @@ export default {
     color: var(--red);
     font-size: 10px;
   }
+}
+img.thx {
+    width: 100px;
+    margin-bottom: 30px;
 }
 </style>

@@ -6,7 +6,7 @@
           <div class="col-sm-4 d-flex justify-content-star">
             <div class="brand-wrap">
               <img class="logo" src="src/assets/images/logo-dark.png" />
-              <h2 class="logo-text">Vue Shop</h2>
+              <h2 class="logo-text">SINUPS</h2>
             </div>
             <!-- brand-wrap.// -->
           </div>

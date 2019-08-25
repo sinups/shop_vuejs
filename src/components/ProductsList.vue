@@ -75,12 +75,12 @@
                     <h4 class="title">{{ currentProduct.name }}</h4>
                     <p class="desc">{{ currentProduct.description }}</p>
                      <div class="price-wrap h5">
-                <span class="price-new">{{ currentProduct.price }}</span>
+                <span class="price-new">{{ currentProduct.price }} MDL</span>
               </div>
                </div>
           </div>
           <div class="modal-footer">
-
+              <button type="button" class="btn btn-primary"  @click="addToCart(currentProduct)" data-dismiss="modal">В корзину</button>
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
           </div>
         </div>

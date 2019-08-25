@@ -32,6 +32,9 @@ const actions = {
     del({commit, state}, product) {
         commit('REMOVE_ITEM', product)
     },
+    clearCart({commit, state}, product) {
+        commit('CLEAR_CART', product)
+    },
     decr({commit, state}, product) {
         if (product.quantity > 1)
             commit('DECREMENT_CART', product)
@@ -72,6 +75,9 @@ const mutations = {
     },
     DECREMENT_CART(state, product) {
         product.quantity--
+    },
+    CLEAR_CART(state, product) {
+        state.cart = [];
     },
     REMOVE_ITEM(state, product) {
         for (let i in state.cart) {
