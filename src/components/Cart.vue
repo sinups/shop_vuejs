@@ -259,7 +259,7 @@ export default {
       cursor: pointer;
     }
     i {
-      font-size: 12px;
+      font-size: 16px;
     }
     .plus i {
       color: var(--green);
