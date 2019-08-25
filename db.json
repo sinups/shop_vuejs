@@ -1,0 +1,152 @@
+{
+   "products":[
+      {
+         "id":1,
+         "name":"Samsung Galaxy S10+ G975",
+         "description":"8 Гб/ 128 Гб/ Dual SIM/ Черный",
+         "price":16499,
+         "photo":"https://enter.online/images/detailed/71/samsung_galaxy_g_975_black1.png"
+      },
+      {
+         "id":2,
+         "name":"Asus VivoBook X512UA",
+         "description":"i3-7020U/ 8 Гб/ 1 Тб HDD/ VGA Integrated/ Серый",
+         "price":8790,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/82/asus_x512ua_grey1b.webp"
+      },
+      {
+         "id":3,
+         "name":"TCL 32ES580 32 HD ready",
+         "description":"Серый/ Smart TV/ Wi-Fi",
+         "price":3899,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/80/tcl_32es580_grey1a.webp"
+      },
+      {
+         "id":4,
+         "name":"Sony Playstation 4 Slim",
+         "description":"500 GB / Черный",
+         "price":5999,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/67/sony_ps4_slim1_75rt-9g.webp"
+      },
+      {
+         "id":5,
+         "name":"RivaCase 7760",
+         "description":"15.6''/ Красный",
+         "price":549,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/79/rivacase_7760_red1a.webp"
+      },
+      {
+         "id":6,
+         "name":"Quechua MH500",
+         "description":"Зелёный",
+         "price":378,
+         "photo":"https://enter.online/images/detailed/71/samsung_galaxy_g_975_black1.png"
+      },
+      {
+         "id":7,
+         "name":"Lenovo IdeaPad S340",
+         "description":"i3-8145U/ 8 Гб/ 1 Тб HDD/ VGA Integrated/ Серый",
+         "price":9890,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/82/lenovo_s340_grey1.webp"
+      },
+      {
+         "id":8,
+         "name":"Asus TUF FX705DT",
+         "description":"Ryzen 5 3550H/ 8 Гб/ 512 GB SSD/ VGA 4 GB Discrete",
+         "price":19390,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/79/asus_x705dt_black1.webp"
+      },
+      {
+         "id":9,
+         "name":"Asus X507MA",
+         "description":"Pentium N5000/ 4 ГБ/ 1 Тб HDD/ VGA Integrated/ Серый",
+         "price":5690,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/65/asus_x507ma_grey1_gcv4-14.webp"
+      },
+      {
+         "id":10,
+         "name":"Apple MacBook Air 13 (2018) MRE82",
+         "description":"i5-8259U/ 8 Гб/ 128 GB SSD/ VGA Integrated/ Space Серый",
+         "price":23990,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/66/apple_macbook_air_13_2018_space_gray_1.webp"
+      },
+      {
+         "id":11,
+         "name":"Xiaomi MiJia Smart",
+         "description":"25 km/h/ 250 Вт/ Черный",
+         "price":8599,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/45/xiaomi_mijia_smart_electric_scooter_black1.webp"
+      },
+      {
+         "id":11,
+         "name":"Windgoo N1",
+         "description":"10 км/ч/ 2 x 250 Вт/ Graffiti Разноцветный",
+         "price":2999,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/77/windgoo_n1_graffiti1.png"
+      },
+      {
+         "id":12,
+         "name":"Asus ROG Claymore Core Gaming",
+         "description":"USB/ Черный",
+         "price":2700,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/74/asus_rog_claymore_core_gaming_black1.webp"
+      },
+      {
+         "id":13,
+         "name":"Asus ROG Pugio",
+         "description":"USB/ Черный",
+         "price":450,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/63/asus_pugio_black4.webp"
+      },
+      {
+         "id":14,
+         "name":"Asus Rog Delta Черный",
+         "description":"Проводные/ Игровой",
+         "price":3499,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/74/asus_rog_delta_black1.webp"
+      },
+      {
+         "id":15,
+         "name":"Asus ROG Strix Impact P303",
+         "description":"USB/ Черный",
+         "price":990,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/65/asus_p303_strix_impact_black1.png"
+      },
+      {
+         "id":16,
+         "name":"Asus ROG Strix Fusion Черный",
+         "description":"Проводные/ Игровой",
+         "price":2350,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/63/asus_headphones_300_7.1_black.png"
+      },
+      {
+         "id":17,
+         "name":"Apple iPhone XR",
+         "description":"8 Гб/ 128 Гб/ Dual SIM/ Черный",
+         "price":15000,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/64/apple_iphone_xr_white2_nynz-ph.webp"
+      },
+      {
+         "id":18,
+         "name":"Xiaomi Redmi Note 7",
+         "description":"4 Гб/ 64 Гб/ Dual SIM/ Черный",
+         "price":3800,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/82/xiaomi_redmi_note_7_black6_yub8-n9.webp"
+      },
+      {
+         "id":19,
+         "name":"Samsung Galaxy A50 A505",
+         "description":"8 Гб/ 128 Гб/ Dual SIM/ Черный",
+         "price":135.53,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/80/samsung_galaxy_a505_black0.webp"
+      },
+      {
+         "id":20,
+         "name":"Xiaomi Redmi Note 6 Pro",
+         "description":"8 Гб/ 128 Гб/ Dual SIM/ Черный",
+         "price":2890,
+         "photo":"https://enter.online/images/thumbnails/200/200/detailed/65/xiaomi_redmi_note_6pro_black_5_evcc-jj.webp"
+      }
+
+   ]
+}
