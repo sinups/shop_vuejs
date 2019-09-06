@@ -1,0 +1,38 @@
+[
+    {
+        "price": "8 790lei",
+        "old_price": "9 590&nbsp;lei9 590lei",
+        "href": "https://enter.online/laptopuri/asus-vivobook-x512ua-i3-7020u-8-gb-1-tb-hdd-vga-integrated-blue/",
+        "id": "00-00043078-001",
+        "title": "Asus VivoBook X512UA",
+        "district": "",
+        "description": "i3-7020U/ 8 GB/ 1 TB HDD/ VGA Integrated/ Blue",
+        "seller": "",
+        "photos": [
+            "https://enter.online/images/thumbnails/400/400/detailed/82/asus_x512ua_blue1b.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/81/asus_x512ua_blue2.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/81/asus_x512ua_blue3.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/81/asus_x512ua_blue4.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/81/asus_x512ua_blue5.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/81/asus_x512ua_blue6.png"
+        ],
+        "props": []
+    },
+    {
+        "price": "6 990lei",
+        "old_price": "7 390&nbsp;lei7 390lei",
+        "href": "https://enter.online/laptopuri/asus-x507ma-full-hd-gray-pentium-n5000-4-gb-1-tb-hdd-vga-integrated/",
+        "id": "00-00036843-001",
+        "title": "Asus X507MA",
+        "district": "",
+        "description": "Pentium N5000/ 4 GB/ 1 TB HDD/ VGA Integrated/ Gray",
+        "seller": "",
+        "photos": [
+            "https://enter.online/images/thumbnails/400/400/detailed/65/asus_x507ma_grey1_gcv4-14.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/65/asus_x507ma_grey2_nak7-5c.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/65/asus_x507ma_grey3_lfma-uc.png",
+            "https://enter.online/images/thumbnails/400/400/detailed/65/asus_x507ma_grey4_zvpv-te.png"
+        ],
+        "props": []
+    }
+]
