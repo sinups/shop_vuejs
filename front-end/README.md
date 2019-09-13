@@ -1,6 +1,6 @@
 # Sinups shop - Vue.js, Vuex
 
-![ScreenShot](https://github.com/sinups/shop_vuejs/blob/master/src/assets/images/preview.png)
+![ScreenShot](https://github.com/sinups/shop_vuejs/blob/master/front-end/src/assets/images/preview.png)
 
 ## Build Setup
 
